@@ -33,4 +33,4 @@ Puedes acceder al proyecto aquí:
 
 ---
 
-¡Gracias por usar esta solución de movilidad! 🚌💨
+¡Gracias por visitar nuestro repositorio! 🚌💨
