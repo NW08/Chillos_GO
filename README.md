@@ -1,5 +1,3 @@
-# Chillos_GO
-
 # Proyecto: Solución de Movilidad para Quito 🚍 || CHILLOS_GO
 
 Este proyecto tiene como objetivo desarrollar una landing page que brinde una solución práctica y eficiente para las personas que utilizan el transporte público en Quito. 
@@ -23,5 +21,16 @@ Puedes acceder al proyecto aquí:
 - HTML
 - CSS
 - Metodología SCRUM
+
+## GRUPO 03 🤝
+
+- **Ortiz Josué**: Scrum Master 
+- **Changoluisa Joseph**: Diseñador
+- **Cisneros Paulo**: Programador
+- **Guamán Francis**: Diseñador
+- **Paredes Mateo**: Programador
+- **Vargas Johan**: Desarrollador
+
+---
 
 ¡Gracias por usar esta solución de movilidad! 🚌💨
