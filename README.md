@@ -20,8 +20,8 @@ Puedes acceder al proyecto aquí:
 
 ## Tecnologías utilizadas 🛠️
 
-HTML
-CSS
-Metodología SCRUM
+- HTML
+- CSS
+- Metodología SCRUM
 
 ¡Gracias por usar esta solución de movilidad! 🚌💨
