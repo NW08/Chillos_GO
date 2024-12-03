@@ -1,36 +1,41 @@
 # Proyecto: Solución de Movilidad para Quito 🚍 || CHILLOS_GO
 
-Este proyecto tiene como objetivo desarrollar una landing page que brinde una solución práctica y eficiente para las personas que utilizan el transporte público en Quito. 
+Este proyecto tiene como objetivo desarrollar un sitio web completo que ofrezca una solución práctica y eficiente para las personas que utilizan el transporte público en Quito, con especial enfoque en el Valle de los Chillos. 
 
 ## Descripción 📋
 
-La página utiliza la ubicación actual del usuario y la dirección de destino para recomendar las rutas de buses más convenientes, además de indicar la parada más cercana para el bus seleccionado. Esta solución está diseñada para mejorar la experiencia diaria de movilidad en la ciudad, ayudando a los usuarios a planificar sus trayectos de manera más rápida y eficiente.
+El sitio web permite a los usuarios planificar rutas de buses desde su ubicación actual hasta un destino específico. Además, muestra la parada de bus más cercana y recomendaciones basadas en las mejores opciones de transporte. Este proyecto busca mejorar la experiencia de movilidad en la ciudad, facilitando el acceso a información en tiempo real y optimizando el tiempo de viaje de los usuarios.
 
-### Características principales:
-- **Recomendación de rutas de buses:** Proporciona las opciones de transporte público más convenientes según la ubicación y destino ingresados.
-- **Parada más cercana:** Muestra la parada de bus más cercana al usuario para iniciar el recorrido.
-- **Enfoque en usuarios de transporte público:** Diseñado para quienes dependen del transporte público en su día a día.
+### Páginas principales:  
+- **Inicio:** Bienvenida y resumen del sitio.  
+- **Nosotros/Contacto:** Información sobre el equipo y medios de contacto.  
+- **Rutas:** Planificación de rutas y búsqueda de paradas.  
+- **Donaciones/Publicidad de la App:** Información para apoyar el proyecto.  
+- **Noticias/Actualizaciones:** Novedades y mejoras en el sitio y la app.  
 
-## Enlace a la página 🌐
+## Enlace al sitio 🌐
 
-Puedes acceder al proyecto aquí:  
-[**Landing Page**](https://chillosgo.netlify.app/)
+Accede al proyecto aquí:  
+[**Sitio Web ChillosGo**](https://chillosgo.netlify.app/)
 
 ## Tecnologías utilizadas 🛠️
 
-- HTML
-- CSS
-- Metodología SCRUM
+- **HTML** y **CSS** para el desarrollo de la estructura y estilo.  
+- **Google Fonts** para la tipografía.  
+- **Media Queries** para el diseño responsivo.  
+- **Mobile First** como enfoque principal.  
+- **SCRUM** como metodología ágil de trabajo.  
+- **Netlify** para el despliegue y alojamiento del sitio.
 
 ## GRUPO 03 🤝
 
-- **Ortiz Josué**: Scrum Master 
-- **Changoluisa Joseph**: Diseñador
-- **Cisneros Paulo**: Programador
-- **Guamán Francis**: Diseñador
-- **Paredes Mateo**: Programador
-- **Vargas Johan**: Desarrollador
+- **Ortiz Josué**: Scrum Master.  
+- **Changoluisa Joseph**: Diseñador.  
+- **Cisneros Paulo**: Programador.  
+- **Guamán Francis**: Diseñador.  
+- **Paredes Mateo**: Programador.  
+- **Vargas Johan**: Desarrollador.  
 
 ---
 
-¡Gracias por visitar nuestro repositorio! 🚌💨
+¡Gracias por visitar nuestro proyecto! 🚌💨
