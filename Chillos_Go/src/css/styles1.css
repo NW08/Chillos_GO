@@ -1,0 +1,301 @@
+/* Variables de CSS */
+:root {
+    --Colorfondo:#FFFFFF;
+    --colorCaja: #3A2D2D;
+    --colorSecundario: #F4F4F9;
+    --colorLetraPrimaria: #FFFFFF;
+    --colorLetraSecundaria: #000000;
+    --fuentePrincipal: "Hind", sans-serif;
+}
+
+/* Estilos generales del html  */
+html {
+    background-color: var(--Colorfondo);
+}
+
+body {
+    font-family: var(--fuentePrincipal);
+}
+
+/* Estilos para la navbar */
+.navbar {
+    background-color: #3A2D2D;
+    padding: 0.5rem 2rem;
+}
+
+.navbar__container {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+@media (min-width: 768px) {
+    .navbar__container {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.navbar__logo {
+    color: var(--colorLetraPrimaria);
+    cursor: pointer;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 1rem 1rem;
+}
+
+ul li a:hover {
+    font-size: 19px; 
+    transform: scale(1.1); 
+}
+
+ul li a {
+    color: var(--colorLetraPrimaria);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: transform 0.3s ease, font-size 0.3s ease; 
+}
+
+/* Acerca */
+.acerca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+    background-color: #E4DEC9;
+    padding: 2rem;
+}
+
+.acerca__contenido {
+    flex: 1;
+    text-align: center;
+}
+
+.acerca__titulo {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #000000;
+}
+
+.acerca__texto {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #000000;
+}
+
+.acerca__imagen {
+    flex: 1;
+}
+
+.acerca__img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Equipo */
+.equipo {
+    text-align: center;
+}
+
+.equipo__tarjeta img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px;
+    object-fit: cover; 
+}
+
+.equipo__titulo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.equipo__tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    background-color: #E4DEC9;
+}
+
+.equipo__tarjeta {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 200px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.equipo__tarjeta:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.equipo__nombre {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    color: #000000;
+    font-weight: bold;
+}
+
+.equipo__rol {
+    color: #000000;
+    font-size: 1rem;
+    margin-top: 0.3rem;
+}
+
+/* Información */
+.contenedor_informacion {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: stretch; 
+    gap: 2.5rem; 
+    padding: 2rem;
+}
+
+.informacion__bloque1 {
+    flex: 0 1 48%; 
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+    padding: 1rem; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.informacion__bloque2 {
+    flex: 0 1 48%; 
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+    padding: 1rem; 
+    background-color: #E4DEC9;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.informacion__titulo {
+    font-size: 1.5rem;
+    text-align: center; 
+    font-weight: bold;
+}
+
+.informacion__texto,
+.informacion__valores {
+    font-size: 1rem;
+    line-height: 1.6; 
+    margin: 0;
+}
+
+.informacion__valores li {
+    margin-bottom: 0.5rem; 
+}
+/*Informacion*/
+
+/* Footer */
+.footer {
+    background-color: var(--colorCaja);
+    color: var(--colorLetraPrimaria);
+    padding: 2rem;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem; /* Espacio entre texto e imágenes */
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.footer-socials {
+    display: flex;
+    justify-content: flex-end; /* Mueve los iconos a la derecha */
+    gap: 1rem; /* Espacio entre los iconos */
+}
+
+.footer-socials img {
+    width: 3rem;
+    margin: 0; /* Eliminar el margen adicional */
+    cursor: pointer;
+}
+
+/* Mobile styles (up to 767px) */
+@media (max-width: 767px) {
+    .navbar__container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intro {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .intro-text p {
+        padding: 0 2rem;
+    }
+
+    .app-section {
+        flex-direction: column;
+    }
+
+    .app-image img {
+        width: 80%;
+    }
+
+    .info-content {
+        flex-direction: column;
+    }
+
+    .info-images {
+        flex-direction: row;
+        gap: 0.5rem;
+        justify-content: center;
+    }
+
+    .routes-section {
+        flex-direction: column;
+    }
+}
+
+/* Tablet styles (768px to 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .navbar__container {
+        padding: 0 1rem;
+    }
+
+    .intro {
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 1rem;
+    }
+
+    .intro-text p {
+        padding: 0 3rem;
+    }
+
+    .app-image img {
+        width: 50%;
+    }
+
+    .info-content {
+        gap: 1rem;
+    }
+
+    .routes-section {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

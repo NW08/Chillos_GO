@@ -12,101 +12,118 @@
     <link rel="stylesheet" href="./src/css/styles.css">
     <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/8931/8931836.png" type="image/x-icon">
 </head>
-    <body>
+<body>
 
-        <!-- Navbar -->
-        <header class="navbar">
-            <div class="navbar__container">
-                <h1 class="navbar__logo">ChillosGo</h1>
-                <ul>
-                    <li><a href="#">Contacto</a></li>
-                    <li><a href="#">Mapa</a></li>
-                    <li><a href="#">Rutas</a></li>
-                </ul>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="navbar__container">
+            <h1 class="navbar__logo"><a href="./index.html">ChillosGo</a></h1>
+            <ul>
+                <li><a href="./Pages/nosotros.html">Contacto</a></li>
+                <li><a href="./Pages/rutas.html">Rutas</a></li>
+                <li><a href="./Pages/app.html">App</a></li>
+                <li><a href="./Pages/Noticias.html">Noticias</a></li>
+                <li><a href="./Pages/donaciones.html">Donaciones</a></li>
+            </ul>
+            <!-- Añadir botones de Login y Registro -->
+            <div class="navbar__buttons">
+                <button class="btn-login"><a href="./Pages/iniciarsesion.html">Login</a></button>
+                <button class="btn-register"><a href="./Pages/registro.html">Registro</a></button>
             </div>
-        </header>
+        </div>
+    </header>
 
-        <!-- Sección Principal -->
-        <section class="intro">
-            <div class="intro-text">
-                <h2>Tu guía de transporte en el Valle de los Chillos</h2>
-                <button>Ver más</button>
-                <button>Cómo funciona</button>
-            </div>
-            <div class="map">
-                <img src="./src/images/valle_mapa.webp" alt="Mapa del Valle de los Chillos">
-            </div>
-        </section>
+    <!-- Sección Principal -->
+    <section class="intro">
+        <div class="intro-text">
+            <h2>Tu guía de transporte en el Valle de los Chillos</h2>
+            <button>Ver más</button>
+            <button>Cómo funciona</button>
+        </div>
+        <div class="map">
+            <img src="./src/images/valle_mapa.webp" alt="Mapa del Valle de los Chillos">
+        </div>
+    </section>
 
-        <!-- Sección de App -->
-        <section class="app-section">
-            <div class="app-image">
-                <img src="./src/images/app_imagen_1.webp" alt="Interfaz de la App">
+    <!-- Sección de App -->
+    <section class="app-section">
+        <div class="app-image">
+            <img src="./src/images/app_imagen_1.webp" alt="Interfaz de la App">
+        </div>
+        <div class="app-content">
+            <h2>Descubre la forma más fácil de llegar a tu destino en bus</h2>
+            <p>ChillosGo es la aplicación diseñada para quienes buscan una manera rápida, 
+                confiable y sencilla de moverse en transporte público dentro del Valle de los Chillos. 
+                Con nuestra app, los usuarios pueden encontrar la mejor ruta en autobús desde 
+                su ubicación actual hasta cualquier destino dentro del valle, sin tener que preocuparse por la planificación y sin perder tiempo.</p>
+            <div class="app-buttons">
+                <img src="./src/images/botton_gp.webp" alt="Google Play">
+                <img src="./src/images/boton_appstore.png" alt="App Store">
             </div>
-            <div class="app-content">
-                <h2>Descubre la forma más fácil de llegar a tu destino en bus</h2>
-                <p>ChillosGo es la aplicación diseñada para quienes buscan una manera rápida, 
-                    confiable y sencilla de moverse en transporte público dentro del Valle de los Chillos. 
-                    Con nuestra app, los usuarios pueden encontrar la mejor ruta en autobús desde 
-                    su ubicación actual hasta cualquier destino d
-                    entro del valle, sin tener que preocuparse por la planificación y sin perder tiempo</p>
-                <div class="app-buttons">
-                    <img src="./src/images/botton_gp.webp" alt="Google Play">
-                    <img src="./src/images/boton_appstore.png" alt="App Store">
-                </div>
-            </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Sección de Imágenes de Rutas -->
-        <section class="routes-section">
-            <div class="route">
+    <!-- Sección de Imágenes de Rutas -->
+    <section class="routes-section">
+        <h3 class="text-center">Conoce Nuestra App</h3>
+        <p class="text-center">Descubre las mejores rutas y opciones de transporte para llegar al Valle de los Chillos de manera eficiente y cómoda.</p>
+        <div class="routes">
+            <div class="card">
                 <img src="./src/images/ruta_valle.jpeg" alt="Ruta 1">
-                <p>Ubicación en tiempo real: Obtén tu posición exacta y las 
-                    rutas de buses disponibles cerca de 
-                    ti para moverte sin complicaciones.</p>
+                <div class="card-content">
+                    <span class="badge">Tiempo Real</span>
+                    <h4>Ubicación en Tiempo Real</h4>
+                    <p class="description">Obtén tu posición exacta y las rutas de buses disponibles cerca de ti para moverte sin complicaciones.</p>
+                </div>
             </div>
-            <div class="route">
+            <div class="card">
                 <img src="./src/images/metro-quito-valles.jpeg" alt="Ruta 2">
-                <p>Rutas optimizadas para ti: Encuentra el bus adecuado para llegar
-                    de manera rápida y sencilla a tu destino en el Valle de los Chillos.</p>
+                <div class="card-content">
+                    <span class="badge">Optimización</span>
+                    <h4>Rutas Optimizadas</h4>
+                    <p class="description">Encuentra el bus adecuado para llegar de manera rápida y sencilla a tu destino en el Valle de los Chillos.</p>
+                </div>
             </div>
-            <div class="route">
+            <div class="card">
                 <img src="./src/images/parada_valle.jpeg" alt="Ruta 3">
-                <p>Información siempre actualizada: Conoce los horarios, 
-                    tiempos de espera y las mejores rutas sin preocuparte por cambios inesperados.</p>
-            </div>
-        </section>
-        
-        <!--Seccion informacion-->
-
-        <!-- Sección de Información Adicional -->
-        <section class="info-section">
-            <div class="info-content">
-                <div class="info-text">
-                    <p>Usar ChillosGo es tan sencillo como abrir la aplicación, permitir la localización y 
-                        elegir tu destino. En cuestión de segundos, recibirás instrucciones detalladas y 
-                        precisas sobre la mejor ruta para llegar, sin necesidad de experiencia previa en el 
-                        uso de mapas o aplicaciones de transporte. Con una interfaz intuitiva y clara, 
-                        ChillosGo se adapta a todo tipo de usuario, desde quienes usan 
-                        transporte público diariamente hasta quienes lo exploran por primera vez.</p>
-                </div>
-                <div class="info-images">
-                    <img src="./src/images/bus_1.jpg" alt="Información 1">
+                <div class="card-content">
+                    <span class="badge">Actualización</span>
+                    <h4>Información Actualizada</h4>
+                    <p class="description">Conoce los horarios, tiempos de espera y las mejores rutas sin preocuparte por cambios inesperados.</p>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Pie de página -->
-        <footer class="footer">
-            <div class="footer-content">
-                <p>Rutas de buses-Valle de los Chillos</p>
-                <div class="footer-socials">
-                    <img src="./src/images/facebook_icon.png" alt="Facebook">
-                    <img src="./src/images/twitter_icon.png" alt="Twitter">
-                    <img src="./src/images/instagram_icon.png" alt="Instagram">
-                </div>
+    <!-- Sección de Información Adicional -->
+    <div class="about-section">
+        <h5 class="text-align">Sobre Nosotros</h5>
+        <div class="about-content">
+            <!-- Imagen añadida -->
+            <div class="about-image">
+                <img src="./src/images/bus_1.jpg" alt="Imagen representativa de la app">
             </div>
-        </footer>
+            <p>
+                Nuestra aplicación tiene como propósito facilitar la gestión, visualización y planificación de las rutas de transporte público en el Valle de los Chillos, Ecuador. 
+                Queremos ayudar a las personas a encontrar rutas más rápidas y convenientes, promoviendo el uso eficiente del transporte público y mejorando la experiencia de movilidad.
+                La aplicación también permitirá a los usuarios conocer en tiempo real las rutas disponibles, el tiempo estimado de llegada de los buses, y las paradas más cercanas a su ubicación. 
+                Además, contará con una interfaz intuitiva que hará que el proceso de búsqueda y selección de rutas sea sencillo y rápido.
+                Nuestro objetivo es contribuir a la mejora de la calidad del servicio de transporte en la región, facilitar la accesibilidad y, en última instancia, promover un modelo de transporte más sostenible y eficiente.
+            </p>
+        </div>
+    </div>
 
-    </body>
+    <!-- Pie de página -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Rutas de buses-Valle de los Chillos</p>
+            <div class="footer-socials">
+                <img src="./src/images/facebook_icon.png" alt="Facebook">
+                <img src="./src/images/twitter_icon.png" alt="Twitter">
+                <img src="./src/images/instagram_icon.png" alt="Instagram">
+            </div>
+        </div>
+    </footer>
+
+</body>
 </html>

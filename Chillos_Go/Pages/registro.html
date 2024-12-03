@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuario - ChillosGo</title>
+    <link rel="stylesheet" href="../src/css/normalize.css">
+    <link rel="stylesheet" href="../src/css/styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="navbar__container">
+            <h1 class="navbar__logo"><a href="/index.html">ChillosGo</a></h1>
+            <ul>
+                <li><a href="../Pages/nosotros.html">Contacto</a></li>
+                <li><a href="../Pages/rutas.html">Rutas</a></li>
+                <li><a href="../Pages/app.html">App</a></li>
+                <li><a href="../Pages/Noticias.html">Noticias</a></li>
+                <li><a href="../Pages/donaciones.html">Donaciones</a></li>
+            </ul>
+            <!-- Añadir botones de Login y Registro -->
+            <div class="navbar__buttons">
+                <button class="btn-login"><a href="../Pages/iniciarsesion.html">Login</a></button>
+                <button class="btn-register"><a href="../Pages/registro.html">Registro</a></button>
+            </div>
+        </div>
+    </header>
+
+<main class="registro-main">
+    <div class="registro-form-container">
+        <h2>Registro de nuevo usuario</h2>
+        <form class="registro-form">
+            <input type="email" placeholder="Correo electrónico" class="registro-input" required>
+            <input type="password" placeholder="Contraseña" class="registro-input" required>
+            <input type="password" placeholder="Confirme contraseña" class="registro-input" required>
+            <button type="submit" class="registro-button">Registrar</button>
+        </form>
+    </div>
+</main>
+
+<footer class="footer">
+    <div class="footer-content">
+        <p>Rutas de buses-Valle de los Chillos</p>
+        <div class="footer-socials">
+            <img src="../src/images/facebook_icon.png" alt="Facebook">
+            <img src="../src/images/twitter_icon.png" alt="Twitter">
+            <img src="../src/images/instagram_icon.png" alt="Instagram">
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

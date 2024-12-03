@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChillosGo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/normalize.css">
+    <link rel="stylesheet" href="/src/css/rutas.css">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/8931/8931836.png" type="image/x-icon">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="navbar__container">
+            <h1 class="navbar__logo"><a href="/index.html">ChillosGo</a></h1>
+            <ul>
+                <li><a href="../Pages/nosotros.html">Contacto</a></li>
+                <li><a href="../Pages/rutas.html">Rutas</a></li>
+                <li><a href="../Pages/app.html">Aplicación</a></li>
+                <li><a href="../Pages/noticias.html">Noticias</a></li>
+                <li><a href="../Pages/donaciones.html">Donaciones</a></li>
+            </ul>
+            <div class="navbar__buttons">
+                <button class="btn-login"><a href="../Pages/iniciarsesion.html">Iniciar Sesión</a></button>
+                <button class="btn-register"><a href="../Pages/registro.html">Registrarse</a></button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sección de Rutas -->
+    <section class="routes-section">
+        <h3 class="text-center">Planifica Tu Ruta</h3>
+        <p class="text-center">Introduce tu dirección de salida y destino para encontrar las mejores opciones de transporte.</p>
+        
+        <div class="route-planner">
+            <div class="route-inputs">
+                <label for="departure">Dirección de Salida:</label>
+                <input type="text" id="departure" placeholder="Ingresa tu dirección de salida">
+                
+                <label for="destination">Dirección de Destino:</label>
+                <input type="text" id="destination" placeholder="Ingresa tu dirección de destino">
+                
+                <label for="bus-list">Selecciona un Bus:</label>
+                <select id="bus-list">
+                    <option value="bus1">Amaguaña</option>
+                    <option value="bus2">CondorVall</option>
+                    <option value="bus3">Marco Polo</option>
+                    <option value="bus4">Los Chillos</option>
+                </select>
+            </div>
+
+            <div class="route-images">
+                <div class="image-container">
+                    <img src="./images/rutas1.png" alt="Ruta 1">
+                    <p>Ruta 1: Av. General Rumiñahui - Av. Velasco Ibarra</p>
+                </div>
+                <div class="image-container">
+                    <img src="./images/rutas2.png" alt="Ruta 2">
+                    <p>Ruta 2: Av. General Rumiñahui (entra a la ciudad) -- Más Largo</p>
+                </div>
+                <div class="image-container">
+                    <img src="./images/rutas3.png" alt="Ruta 3">
+                    <p>Ruta 3: Otra Ruta Posible (de ser el caso).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+<!-- Pie de página -->
+<footer class="footer">
+    <div class="footer-content">
+        <p>Rutas de buses-Valle de los Chillos</p>
+        <div class="footer-socials">
+            <img src="./images/facebook.png" alt="Facebook">
+            <img src="/src/images/twitter_icon.png" alt="Twitter">
+            <img src="./images/logotipo-de-instagram.png" alt="Instagram">
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

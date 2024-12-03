@@ -1,0 +1,202 @@
+/* Variables de CSS */
+:root {
+    --Colorfondo:#FFFFFF;
+    --colorCaja: #3A2D2D;
+    --colorSecundario: #F4F4F9;
+    --colorLetraPrimaria: #FFFFFF;
+    --colorLetraSecundaria: #000000;
+    --fuentePrincipal: "Hind", sans-serif;
+}
+
+/* Estilos generales del html  */
+html {
+    background-color: var(--Colorfondo);
+}
+
+body {
+    font-family: var(--fuentePrincipal);
+}
+
+/* Estilos para la navbar */
+.navbar {
+    background-color: #3A2D2D;
+    padding: 0.5rem 2rem;
+}
+
+.navbar__container {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+@media (min-width: 768px) {
+    .navbar__container {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.navbar__logo {
+    color: var(--colorLetraPrimaria);
+    cursor: pointer;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 1rem 1rem;
+}
+
+ul li a:hover {
+    font-size: 19px; 
+    transform: scale(1.1); 
+}
+
+ul li a {
+    color: var(--colorLetraPrimaria);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: transform 0.3s ease, font-size 0.3s ease; 
+}
+
+
+/* Estilos para los botones de Login y Registro */    
+.navbar__buttons {
+    display: flex;
+    gap: 1rem; /* Espacio entre los botones */
+}
+
+.btn-login, .btn-register {
+    background-color: var(--colorFondo);
+    color: var(--colorLetraSecundaria);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-login:hover, .btn-register:hover {
+    background-color: var(--Colorfondo);
+}
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Estilos para la sección de Rutas */
+.routes-section {
+    padding: 40px 20px;
+    background-color: var(--colorSecundario);
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.text-center {
+    text-align: center;
+    color: var(--colorLetraSecundaria);
+}
+
+.route-planner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.route-inputs {
+    width: 100%;
+    max-width: 600px;
+    background-color: var(--colorCaja);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.route-inputs label {
+    color: var(--colorLetraPrimaria);
+    margin-bottom: 5px;
+    display: block;
+}
+
+.route-inputs input,
+.route-inputs select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.route-inputs input:focus,
+.route-inputs select:focus {
+    border-color: var(--colorLetraPrimaria);
+    outline: none;
+}
+
+.route-images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 800px;
+}
+
+.image-container {
+    flex: 1 1 30%; /* Flexbox para que las imágenes se distribuyan en filas */
+    margin: 10px;
+    background-color: var(--colorCaja);
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.image-container p {
+    color: var(--colorLetraPrimaria);
+    margin-top: 5px;
+}
+
+ /* Footer */
+ .footer {
+    background-color: var(--colorCaja);
+    color: var(--colorLetraPrimaria);
+    padding: 2rem;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem; /* Espacio entre texto e imágenes */
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.footer-socials {
+    display: flex;
+    justify-content: flex-end; /* Mueve los iconos a la derecha */
+    gap: 1rem; /* Espacio entre los iconos */
+}
+
+.footer-socials img {
+    width: 3rem;
+    margin: 0; /* Eliminar el margen adicional */
+    cursor: pointer;
+}
